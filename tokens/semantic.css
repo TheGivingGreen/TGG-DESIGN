@@ -1,0 +1,45 @@
+/* ===== SEMANTIC ALIASES =====
+   Reach for these first. Base palette names are for when you need the raw hue. */
+:root{
+  /* Surfaces */
+  --surface-canvas:var(--sand);
+  --surface-canvas-alt:var(--sand-deep);
+  --surface-card:var(--cream);
+  --surface-dark:var(--forest);
+  --surface-darkest:var(--shadow-ink);
+  --surface-accent:var(--flag);
+
+  /* Text */
+  --text-ink:var(--forest);
+  --text-body:var(--shadow-ink);
+  --text-muted:var(--fairway);
+  --text-on-dark:var(--cream);
+  --text-on-dark-muted:var(--cream-82);
+  --text-detail:var(--bunker);
+  --text-accent:var(--flag);
+
+  /* Links: forest by default, flag on hover. Underline is a 2px flag rule. */
+  --link:var(--forest);
+  --link-hover:var(--flag);
+  --link-on-dark:var(--bunker);
+  --link-on-dark-hover:var(--cream);
+
+  /* Lines */
+  --border-subtle:var(--line);
+  --border-strong:var(--forest);
+
+  /* Controls */
+  --btn-primary-bg:var(--flag);
+  --btn-primary-fg:var(--cream);
+  --btn-primary-bg-hover:var(--flag-deep);
+  --btn-forest-bg:var(--forest);
+  --btn-forest-fg:var(--cream);
+  --btn-forest-bg-hover:var(--fairway);
+  --btn-ghost-fg:var(--forest);
+  --btn-ghost-fg-on-dark:var(--cream);
+
+  /* Score semantics from the scorecard */
+  --score-good:var(--fairway);   /* strokes off */
+  --score-best:var(--flag);      /* sponsored drink, best move on the card */
+  --score-penalty:var(--bunker); /* strokes on */
+}

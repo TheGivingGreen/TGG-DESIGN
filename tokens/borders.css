@@ -1,0 +1,30 @@
+/* ===== EDGES =====
+   Square corners. Forest rules and hard borders do the work shadows would
+   do elsewhere. The only round things in the system are buttons and dots. */
+:root{
+  --radius-none:0;
+  --radius-pill:999px;      /* buttons, badges, dots. Nothing else. */
+
+  --rule-hair:1px;
+  --rule:1.5px;             /* card borders on sand */
+  --rule-heavy:2px;         /* section rules, nav bottom, featured cards */
+
+  --border-card:1.5px solid var(--line);
+  --border-card-strong:2px solid var(--forest);
+  --border-rule:2px solid var(--forest);
+  --border-rule-on-dark:2px solid var(--line-on-dark);
+
+  /* Shadows exist in exactly two places: the sticky nav and the floating CTA. */
+  --shadow-nav:0 2px 12px rgba(20,40,34,.08);
+  --shadow-flag-cta:0 4px 24px rgba(252,86,86,.4);
+  --shadow-product:drop-shadow(0 14px 22px rgba(20,40,34,.18));
+
+  /* Duotone: forest over sand. Applied via the #duotone SVG filter. */
+  --duotone-r:0.118 0.961; /* @kind other */
+  --duotone-g:0.227 0.941; /* @kind other */
+  --duotone-b:0.196 0.910; /* @kind other */
+
+  /* Topographic map texture, the one background pattern in the system */
+  --texture-topo:url("../assets/textures/topo.svg"); /* @kind other */
+  --texture-topo-size:600px;
+}

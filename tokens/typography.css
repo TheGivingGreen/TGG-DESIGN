@@ -1,0 +1,49 @@
+/* ===== TYPE ROLES =====
+   Three fonts, three fixed jobs. Never mix the jobs. */
+:root{
+  /* Role bundles */
+  --type-impact-transform:uppercase; /* @kind other */
+  --type-impact-leading:.92; /* @kind other */
+  --type-impact-tracking:.01em; /* @kind other */
+
+  /* Display / headline scale (fluid, as shipped on the site) */
+  --fs-hero:clamp(44px,9.5vw,148px); /* @kind font */
+  --fs-display:clamp(40px,7vw,92px); /* @kind font */
+  --fs-h2:clamp(32px,5vw,64px); /* @kind font */
+  --fs-h3:clamp(20px,2.5vw,28px); /* @kind font */
+  --fs-venue:clamp(20px,4vw,44px); /* @kind font */
+
+  /* Ceremonial (Playfair Display 600 italic) */
+  --fs-ceremonial-lg:clamp(24px,3.4vw,40px); /* @kind font */
+  --fs-ceremonial:clamp(17px,2.2vw,24px); /* @kind font */
+  --fs-ceremonial-sm:15px; /* @kind font */
+
+  /* Body + UI (DM Sans) */
+  --fs-lead:clamp(16px,1.9vw,19px); /* @kind font */
+  --fs-body:17px; /* @kind font */
+  --fs-body-sm:15px; /* @kind font */
+  --fs-caption:14px; /* @kind font */
+  --fs-fine:12px; /* @kind font */
+
+  /* Label / eyebrow: 13px, 700, .14em, uppercase */
+  --fs-label:13px; /* @kind font */
+  --fs-label-sm:11px; /* @kind font */
+  --ls-label:.14em; /* @kind other */
+  --ls-eyebrow:.16em; /* @kind other */
+  --ls-kicker:.24em; /* @kind other */
+  --ls-button:.1em; /* @kind other */
+
+  --fw-light:300; /* @kind font */
+  --fw-regular:400; /* @kind font */
+  --fw-medium:500; /* @kind font */
+  --fw-bold:700; /* @kind font */
+
+  --lh-tight:.92; /* @kind other */
+  --lh-snug:1.15; /* @kind other */
+  --lh-body:1.6; /* @kind other */
+  --lh-relaxed:1.7; /* @kind other */
+
+  --measure-body:58ch; /* @kind other */
+  --measure-narrow:46ch; /* @kind other */
+  --measure-ceremonial:24ch; /* @kind other */
+}

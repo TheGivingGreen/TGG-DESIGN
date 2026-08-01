@@ -1,0 +1,36 @@
+/* ===== BASE PALETTE =====
+   Hierarchy matters more than the palette. Forest is ink, Sand is canvas,
+   Fairway is secondary, Bunker is gold detail, Flag is one accent per viewport. */
+:root{
+  /* Core five */
+  --forest:#1E3A32;        /* primary ink + dark surfaces */
+  --sand:#F5F0E8;          /* canvas */
+  --fairway:#718D58;       /* secondary green, muted body text on sand */
+  --bunker:#ADA366;        /* gold detail, eyebrows, labels on dark */
+  --flag:#FC5656;          /* single accent moment. Spend it once. */
+
+  /* Extensions of the core five */
+  --shadow-ink:#142822;    /* deepest forest, footers + full-bleed dark */
+  --sand-deep:#EDE6D8;     /* second canvas tint, alternating bands */
+  --cream:#FFFCF5;         /* warm white, text on forest, card fills */
+  --flag-deep:#E04444;     /* flag hover/press only */
+  --line:#D8CFBC;          /* hairline on sand */
+
+  /* Logo-only. Never a text or UI color. */
+  --forest-logo:#324E35;   /* heart-flag mark outline */
+
+  /* Line colors for dark surfaces */
+  --line-on-dark:rgba(255,252,245,.18);
+  --line-on-dark-soft:rgba(255,252,245,.08);
+
+  /* Text-on-dark opacity ladder, lifted from the live site */
+  --cream-90:rgba(255,252,245,.90);
+  --cream-82:rgba(255,252,245,.82);
+  --cream-60:rgba(255,252,245,.60);
+  --cream-35:rgba(255,252,245,.35);
+  --cream-28:rgba(255,252,245,.28);
+
+  /* Scrim used over duotone photography */
+  --scrim-forest-70:rgba(20,40,34,.70);
+  --scrim-forest-85:rgba(20,40,34,.85);
+}

@@ -1,0 +1,20 @@
+/* ===== BASE =====
+   Minimal element defaults so any consuming page inherits the brand. */
+html{scroll-behavior:smooth}
+body{
+  background-color:var(--cream);
+  background-image:var(--texture-topo);
+  background-size:var(--texture-topo-size);
+  color:var(--text-ink);
+  font-family:var(--font-body);
+  font-size:var(--fs-body);
+  line-height:var(--lh-body);
+  text-wrap:pretty;
+}
+a{color:var(--link);text-decoration:none}
+a:hover{color:var(--link-hover)}
+h1,h2{font-family:var(--font-impact);font-weight:var(--fw-regular);text-transform:uppercase;line-height:var(--lh-tight);letter-spacing:var(--type-impact-tracking)}
+h3,h4{font-family:var(--font-impact);font-weight:var(--fw-regular);text-transform:uppercase;letter-spacing:.03em;line-height:1.1}
+strong,b{font-weight:var(--fw-bold)}
+img{max-width:100%;display:block}
+::selection{background:var(--flag);color:var(--cream)}

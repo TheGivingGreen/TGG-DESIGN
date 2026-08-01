@@ -1,0 +1,17 @@
+/* ===== MOTION =====
+   Short, linear-ish, no bounce except when a flag plants itself. */
+:root{
+  --dur-fast:.2s; /* @kind other */
+  --dur-base:.3s; /* @kind other */
+  --dur-slow:.55s; /* @kind other */
+  --dur-reveal:.55s; /* @kind other */
+  --dur-stack:.42s; /* @kind other */
+
+  --ease-standard:cubic-bezier(.3,.7,.2,1); /* @kind other */
+  --ease-out-soft:cubic-bezier(.2,0,.2,1); /* @kind other */
+  --ease-plant:cubic-bezier(.34,1.7,.5,1); /* @kind other */ /* flag plant only */
+
+  --reveal-offset:20px; /* @kind spacing */
+  --hover-lift:-1px; /* @kind spacing */
+  --stack-slide:clamp(20px,4vw,80px); /* @kind spacing */
+}

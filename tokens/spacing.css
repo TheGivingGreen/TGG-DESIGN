@@ -1,0 +1,26 @@
+/* ===== SPACE =====
+   Section rhythm is fluid and generous. Inside components, 4px steps. */
+:root{
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:20px;
+  --space-6:24px;
+  --space-7:32px;
+  --space-8:40px;
+  --space-9:48px;
+  --space-10:64px;
+  --space-12:80px;
+
+  /* Fluid section padding, exactly as shipped */
+  --section-y:clamp(72px,12vh,140px); /* @kind spacing */
+  --section-x:clamp(20px,4vw,48px); /* @kind spacing */
+  --band-pad:clamp(36px,5vw,76px);
+
+  /* Container widths in use */
+  --w-prose:820px;
+  --w-narrow:860px;
+  --w-content:1100px;
+  --w-wide:1360px;
+}

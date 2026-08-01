@@ -1,0 +1,10 @@
+/* The Giving Green webfonts. All three are Google Fonts, loaded from the
+   same CDN URL the live site uses, so weights match production exactly.
+   Anton (impact headlines) - DM Sans (body/UI) - Playfair Display (ceremonial). */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap");
+
+:root{
+  --font-impact:'Anton','Arial Narrow',sans-serif;
+  --font-ceremonial:'Playfair Display',Georgia,serif;
+  --font-body:'DM Sans',system-ui,-apple-system,sans-serif;
+}
